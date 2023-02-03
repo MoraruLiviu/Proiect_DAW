@@ -22,5 +22,10 @@ namespace Charity_Auctions.Repositories.UserRepository
         {
             return await _context.Utilizatori.Include(a => a.cos_Cumparaturi).Where(a => a.Id == Id).FirstOrDefaultAsync();
         }
+
+        public async Task<int> GetNumberOfUsersByType(string Tip)
+        {
+            return await _context.Utilizatori.GroupBy(a => a.Tip.Equals(Tip)).CountAsync();
+        }
     }
 }

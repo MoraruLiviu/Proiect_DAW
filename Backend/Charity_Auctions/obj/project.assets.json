@@ -6462,11 +6462,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github Repo\\Charity_Auctions_MML\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
+      "projectUniqueName": "D:\\Github Repo\\Proiect DAW\\Proiect_DAW\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
       "projectName": "Charity_Auctions",
-      "projectPath": "D:\\Github Repo\\Charity_Auctions_MML\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
+      "projectPath": "D:\\Github Repo\\Proiect DAW\\Proiect_DAW\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
       "packagesPath": "C:\\Users\\Shinyeyes\\.nuget\\packages\\",
-      "outputPath": "D:\\Github Repo\\Charity_Auctions_MML\\Backend\\Charity_Auctions\\obj\\",
+      "outputPath": "D:\\Github Repo\\Proiect DAW\\Proiect_DAW\\Backend\\Charity_Auctions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Shinyeyes\\AppData\\Roaming\\NuGet\\NuGet.Config",
