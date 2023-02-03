@@ -101,6 +101,9 @@ namespace Charity_Auctions.Controllers
             {
                 produseToReturn.Add(new UserDTO(produs));
             }
+
+            await _repository.SaveAsync();
+
             return Ok(produseToReturn);
         }
 

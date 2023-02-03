@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GUFZ6HnnsKyGzTLlXshxzm03R+Mc8fJCX6d6ritdaT4IgmUCcUjYgTV3GVmNofTQAddnAjFntDAEnOgnSg6jTg==",
+  "dgSpecHash": "V/jw4NQIvUuWbC1KErlxwZELpY2vZPWwiFa7FXvymtu6P0nM27EOLROCK9lyGIYBD16M7NV9W822bvvgiRxqxQ==",
   "success": true,
-  "projectFilePath": "D:\\Github Repo\\Charity_Auctions_MML\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
+  "projectFilePath": "D:\\Github Repo\\Proiect DAW\\Proiect_DAW\\Backend\\Charity_Auctions\\Charity_Auctions.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shinyeyes\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Shinyeyes\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",

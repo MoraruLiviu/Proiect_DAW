@@ -27,5 +27,7 @@ namespace Charity_Auctions.Repositories.ComandaRepository
         {
             return await _context.Comenzi.Include(a => a.Produs_Comandas).Where(a => a.Userid == id).ToListAsync();
         }
+
+        
     }
 }
