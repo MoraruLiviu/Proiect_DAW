@@ -1,2 +1,2 @@
 # Proiect_DAW
-Proiect DAW
+Proiect DAW Moraru Mihai Liviu 331
