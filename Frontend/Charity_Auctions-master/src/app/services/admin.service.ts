@@ -8,7 +8,7 @@ import {AbstractControl} from "@angular/forms";
 })
 export class AdminService {
 
-  public url = 'https://localhost:5001/api/Produs'
+  public url  = 'https://localhost:5001/api/Produs'
   public url2 = 'https://localhost:5001/api/User'
   public url3 = 'https://localhost:5001/api/CosProdus'
   public url4 = 'https://localhost:5001/api/Comentariu'
@@ -24,7 +24,7 @@ export class AdminService {
     return this.http.get(`${this.url}/${id}`)
   }
   public deleteProdus(id: any): Observable<any>{
-    return this.http.delete(`${this.url}/${id}`, id);
+    return this.http.delete(`${this.url}/${id}`);
   }
 
   public addProdus(produs: any): Observable<any>{

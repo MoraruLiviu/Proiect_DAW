@@ -12,7 +12,9 @@ export class EditProdusComponent implements OnInit {
     id: new FormControl(localStorage.getItem('produs_id')),
     denumire: new FormControl(localStorage.getItem('produs_denumire')),
     pret: new FormControl(localStorage.getItem('pret')),
-    url_poza: new FormControl(localStorage.getItem('url_poza'))
+    url_poza: new FormControl(localStorage.getItem('url_poza')),
+    poster_name: new FormControl(localStorage.getItem('poster_name')),
+    charity_name: new FormControl(localStorage.getItem('charity_name'))
   });
   constructor(
     private adminService: AdminService,
