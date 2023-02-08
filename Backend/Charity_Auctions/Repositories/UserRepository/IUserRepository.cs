@@ -14,5 +14,7 @@ namespace Charity_Auctions.Repositories.UserRepository
         Task<User> GetByIdWithCos(int Id);
 
         Task<int> GetNumberOfUsersByType(string Tip);
+
+        Task<User> GetAllInfo();
     }
 }
