@@ -27,5 +27,11 @@ namespace Charity_Auctions.Repositories.UserRepository
         {
             return await _context.Utilizatori.GroupBy(a => a.Tip.Equals(Tip)).CountAsync();
         }
+
+        public async Task<User> GetAllInfo()
+        {
+            return await _context.Utilizatori.Join(_context.Cosproduse, utilizatori => utilizatori.Id, cosprodus => cosprodus.UserId,
+                (utilizatori, cosprodus) => new { utilizatori, cosprodus }).Select(x => x.utilizatori).FirstOrDefaultAsync();
+        }
     }
 }

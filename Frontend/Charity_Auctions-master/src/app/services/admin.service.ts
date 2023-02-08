@@ -8,7 +8,7 @@ import {AbstractControl} from "@angular/forms";
 })
 export class AdminService {
 
-  public url  = 'https://localhost:5001/api/Produs'
+  public url = 'https://localhost:5001/api/Produs'
   public url2 = 'https://localhost:5001/api/User'
   public url3 = 'https://localhost:5001/api/CosProdus'
   public url4 = 'https://localhost:5001/api/Comentariu'
